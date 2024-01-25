@@ -7,7 +7,7 @@
         <img src="{{asset('assets/images/logo.svg')}}" alt="Filmlane logo">
       </a>
 
-      <div class="header-actions">
+      {{-- <div class="header-actions">
 
         <button class="search-btn">
           <ion-icon name="search-outline"></ion-icon>
@@ -28,8 +28,8 @@
 
         <button class="btn btn-primary">Sign in</button>
 
-      </div>
-
+      </div> --}}
+      
       <button class="menu-open-btn" data-menu-open-btn>
         <ion-icon name="reorder-two"></ion-icon>
       </button>
@@ -51,28 +51,24 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="./index.html" class="navbar-link">Home</a>
+            <a href="./index.html" class="navbar-link">Acceuil</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Movie</a>
+            <a href="#" class="navbar-link">Horaires</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Tv Show</a>
+            <a href="#" class="navbar-link">Evenement</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Web Series</a>
+            <a href="#" class="navbar-link">Tarifs</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Pricing</a>
-          </li>
-          <li>
-            <a href="#" class="navbar-link">Amine</a>
-          </li>
-
+            <a href="#" class="navbar-link">Contact</a>
+          </li> 
         </ul>
 
         <ul class="navbar-social-list">

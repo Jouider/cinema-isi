@@ -4,30 +4,28 @@
       <div class="flex-wrapper">
 
         <div class="title-wrapper">
-          <p class="section-subtitle">Online Streaming</p>
+          <p class="section-subtitle">ISI-Cinema</p>
 
-          <h2 class="h2 section-title">Upcoming Movies</h2>
+          <h2 class="h2 section-title">Prochainement</h2>
         </div>
 
         <ul class="filter-list">
-
           <li>
-            <button class="filter-btn">Movies</button>
+            <button class="filter-btn">Voir tous les films</button>
           </li>
-
-          <li>
-            <button class="filter-btn">TV Shows</button>
-          </li>
-
-          <li>
-            <button class="filter-btn">Anime</button>
-          </li>
-
         </ul>
 
       </div>
 
       <ul class="movies-list  has-scrollbar">
+        <x-film-card 
+          image="assets/images/upcoming-1.png"
+          title="Film 1"
+          age="-12"
+          gender="Drame"
+          duration="2h 59m"
+
+        />
 
         <li>
           <div class="movie-card">

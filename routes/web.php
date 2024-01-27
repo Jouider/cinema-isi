@@ -17,3 +17,4 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/',[HomeController::class,'index'])->name('homepage');
+Route::get('/horaires',[HomeController::class,'horaires'])->name('horairespage');

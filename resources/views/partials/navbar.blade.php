@@ -51,11 +51,11 @@
         <ul class="navbar-list">
 
           <li>
-            <a href="./index.html" class="navbar-link">Acceuil</a>
+            <a href="{{route('homepage')}}" class="navbar-link">Acceuil</a>
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Horaires</a>
+            <a href="{{route('horairespage')}}" class="navbar-link">Horaires</a>
           </li>
 
           <li>

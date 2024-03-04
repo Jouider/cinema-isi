@@ -31,101 +31,7 @@
       </ul>
 
       <ul class="row" id="movies-container"></ul>
-      <article class="postcard dark yellow">
-        <a class="postcard__img_link" href="#">
-            <img class="postcard__img" src="https://fr.web.img4.acsta.net/pictures/23/10/05/15/02/3022916.jpg" alt="Image Title" />
-        </a>
-        <div class="postcard__text">
-            <h1 class="postcard__title green"><a href="#">The Beekeeper</a></h1>
-            <div class="postcard__subtitle small">
-                <time datetime="2020-05-25 12:00:00">
-                    <i class="fas fa-calendar-alt mr-2"></i>1h 30 min
-                </time>
-            </div>
-            <div class="postcard__bar"></div>
-            <div class="postcard__preview-txt">
-                <ul class="postcard__tagbox">
-                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>18:45</li>
-                    <li class="hour__item play yellow"><i class="fas fa-clock mr-2"></i>20:15</li>
-                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>22:30</li>
-                </ul>
-                <div class="postcard__bar"></div>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                    optio, eaque rerum! 
-                </div>
-            </div>
-            <ul class="postcard__tagbox">
-                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Action, Crime, Fantasy</li>
-                <li class="tag__item play yellow"><i class="fas fa-clock mr-2"></i>-12</li>
-            </ul>
-        </div>
-    </article>  
-      <article class="postcard dark yellow">
-        <a class="postcard__img_link" href="#">
-            <img class="postcard__img" src="https://d1csarkz8obe9u.cloudfront.net/posterpreviews/movie-poster-template-design-21a1c803fe4ff4b858de24f5c91ec57f_screen.jpg?ts=1636996180" alt="Image Title" />
-        </a>
-        <div class="postcard__text">
-            <h1 class="postcard__title green"><a href="#">After</a></h1>
-            <div class="postcard__subtitle small">
-                <time datetime="2020-05-25 12:00:00">
-                    <i class="fas fa-calendar-alt mr-2"></i>1h 30 min
-                </time>
-            </div>
-            <div class="postcard__bar"></div>
-            <div class="postcard__preview-txt">
-                <ul class="postcard__tagbox">
-                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>18:45</li>
-                    <li class="hour__item play yellow"><i class="fas fa-clock mr-2"></i>20:15</li>
-                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>22:30</li>
-                </ul>
-                <div class="postcard__bar"></div>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                    optio, eaque rerum! 
-                </div>
-            </div>
-            <ul class="postcard__tagbox">
-                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Action, Crime, Fantasy</li>
-                <li class="tag__item play yellow"><i class="fas fa-clock mr-2"></i>-12</li>
-            </ul>
-        </div>
-    </article>
-      <article class="postcard dark yellow">
-        <a class="postcard__img_link" href="#">
-            <img class="postcard__img" src="https://rukminim2.flixcart.com/image/850/1000/jf8khow0/poster/a/u/h/small-hollywood-movie-poster-blade-runner-2049-ridley-scott-original-imaf3qvx88xenydd.jpeg?q=90&crop=false" alt="Image Title" />
-        </a>
-        <div class="postcard__text">
-            <h1 class="postcard__title green"><a href="#">Bright</a></h1>
-            <div class="postcard__subtitle small">
-                <time datetime="2020-05-25 12:00:00">
-                    <i class="fas fa-calendar-alt mr-2"></i>1h 30 min
-                </time>
-            </div>
-            <div class="postcard__bar"></div>
-            <div class="postcard__preview-txt">
-                <ul class="postcard__tagbox">
-                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>18:45</li>
-                    <li class="hour__item play yellow"><i class="fas fa-clock mr-2"></i>20:15</li>
-                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>22:30</li>
-                </ul>
-                <div class="postcard__bar"></div>
-                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
-                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
-                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
-                    optio, eaque rerum! 
-                </div>
-            </div>
-            <ul class="postcard__tagbox">
-                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Action, Crime, Fantasy</li>
-                <li class="tag__item play yellow"><i class="fas fa-clock mr-2"></i>-12</li>
-            </ul>
-        </div>
-    </article>
-    </div>
-    </div>
+      
     
     
 
@@ -184,37 +90,37 @@
       var moviesHTML = '';
       filmsDuJour.forEach(film => {
           moviesHTML += `
-              <li class="col-md-4 mb-4">
-                  <div class="movie-card">
-                      <a href="./movie-details.html">
-                          <figure class="card-banner">
-                              <img src="{{asset('')}}assets/images/${film.image}" alt="${film.title} movie poster">
-                          </figure>
-                      </a>
-
-                      <div class="title-wrapper">
-                          <a href="./movie-details.html">
-                              <h3 class="card-title">${film.title}</h3>
-                          </a>
-
-                          <time datetime="${film.year}">${film.year}</time>
-                      </div>
-
-                      <div class="card-meta">
-                          <div class="badge badge-outline">${film.quality}</div>
-
-                          <div class="duration">
-                              <ion-icon name="time-outline"></ion-icon>
-                              <time datetime="${film.duration}">${film.duration}</time>
-                          </div>
-
-                          <div class="rating">
-                              <ion-icon name="star"></ion-icon>
-                              <data>${film.rating}</data>
-                          </div>
-                      </div>
-                  </div>
-              </li>
+              <article class="postcard dark yellow">
+        <a class="postcard__img_link" href="#">
+            <img class="postcard__img" src="{{asset('assets/images/${film.image}')}}" alt="${film.title} movie poster" />
+        </a>
+        <div class="postcard__text">
+            <h1 class="postcard__title green"><a href="#">${film.title}</a></h1>
+            <div class="postcard__subtitle small">
+                <time datetime="${film.duration}">
+                    <i class="fas fa-calendar-alt mr-2"></i>${film.duration}
+                </time>
+            </div>
+            <div class="postcard__bar"></div>
+            <div class="postcard__preview-txt">
+                <ul class="postcard__tagbox">
+                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>18:45</li>
+                    <li class="hour__item play yellow"><i class="fas fa-clock mr-2"></i>20:15</li>
+                    <li class="hour__item play yellow"><i class="fas fa-tag mr-2"></i>22:30</li>
+                </ul>
+                <div class="postcard__bar"></div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia,
+                    molestiae quas vel sint commodi repudiandae consequuntur voluptatum laborum
+                    numquam blanditiis harum quisquam eius sed odit fugiat iusto fuga praesentium
+                    optio, eaque rerum! 
+                </div>
+            </div>
+            <ul class="postcard__tagbox">
+                <li class="tag__item"><i class="fas fa-tag mr-2"></i>Action, Crime, Fantasy</li>
+                <li class="tag__item play yellow"><i class="fas fa-clock mr-2"></i>-12</li>
+            </ul>
+        </div>
+    </article> 
           `;
       });
 

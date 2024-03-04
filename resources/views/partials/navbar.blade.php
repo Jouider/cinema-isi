@@ -4,7 +4,7 @@
       <div class="overlay" data-overlay></div>
 
       <a href="./index.html" class="logo">
-        <img src="{{asset('assets/images/logo.svg')}}" alt="Filmlane logo">
+        <img src="{{asset('assets/images/isi-cinema-logo.svg')}}" alt="Filmlane logo">
       </a>
 
       {{-- <div class="header-actions">
@@ -56,10 +56,6 @@
 
           <li>
             <a href="{{route('horairespage')}}" class="navbar-link">Horaires</a>
-          </li>
-
-          <li>
-            <a href="#" class="navbar-link">Evenement</a>
           </li>
 
           <li>

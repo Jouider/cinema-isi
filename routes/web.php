@@ -18,4 +18,4 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[HomeController::class,'index'])->name('homepage');
 Route::get('/horaires',[HomeController::class,'horaires'])->name('horairespage');
-
+Route::view('/film-detail','film-detail');

@@ -6,8 +6,15 @@
         <div class="title-wrapper">
           <p class="section-subtitle">ISI-Cinema</p>
 
-          <h2 class="h2 section-title">Prochainement</h2>
+          <h2 class="h2 section-title">Actuellement au cinéma</h2>
         </div>
+
+        <ul class="filter-list">
+          <li>
+            <button class="filter-btn">Voir tous les films</button>
+          </li>
+        </ul>
+
       </div>
 
       <ul class="movies-list  has-scrollbar">

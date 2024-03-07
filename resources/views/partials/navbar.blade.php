@@ -63,7 +63,7 @@
           </li>
 
           <li>
-            <a href="#" class="navbar-link">Contact</a>
+            <a href="{{ route('adminpage')}}" class="navbar-link">Contact</a>
           </li> 
         </ul>
 
